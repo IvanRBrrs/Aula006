@@ -15,15 +15,17 @@ function clicar (){
 
 // Criar funçao da variavel entrar (Ativa quando o mouse passar dentro da Div) //
 function entrar (){
-    caixa.innerHTML = 'Entrou';
+    caixa.innerHTML = 'Voce Entrou';
     caixa.style.background = 'yellow';
     caixa.style.color = 'black';
 }
 
 // Criar funçao da variavel sair (Ativa quando tirar o mouse de dentro da Div) //
 function sair (){
-    caixa.innerHTML = 'Saiu';
-    caixa.style.background = 'blue';
+    caixa.innerHTML = 'Passe o mouse';
+    caixa.style.background = 'green';
+    caixa.style.color = 'white';
+    caixa.style.fontWeight = '900';
 }
 
 
