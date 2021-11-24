@@ -94,7 +94,7 @@ if(diaSemana == 0){
 } else if(diaSemana == 5){
     data.innerHTML = ('Sexta');
     data.style.background = ('green');
-} else if(diaSemana == 2){
+} else if(diaSemana == 6){
     data.innerHTML = ('Sabado');
     data.style.background = ('gold');
 }
