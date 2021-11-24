@@ -97,6 +97,21 @@ if(diaSemana == 0){
 } else if(diaSemana == 6){
     data.innerHTML = ('Sabado');
     data.style.background = ('gold');
+} else{
+    data.innerHTML = ('Data invalida');
+    data.style.background = ('white');
+    data.style.color = ('black');
+}
+
+//
+
+let numero = document.getElementById('contador');
+let contador = 0;
+
+while(contador < 300){
+    contador ++;
+    console.log(contador);
+    numero.innerHTML = (contador);
 }
 
 
