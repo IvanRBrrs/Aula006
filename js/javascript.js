@@ -28,6 +28,53 @@ function sair (){
     caixa.style.fontWeight = '900';
 }
 
+// Pegar a data do computador //
+let agora = new Date();
+// Pegar dia da semana em valores numericos //
+let diaSemana = agora.getDay();
+// Pegar o Id da Div //
+let data = document.getElementById('data');
+
+switch(diaSemana){
+    case 0:
+        console.log('Domingo');
+        data.innerHTML = 'Domingo';
+        data.style.background = ' gray';
+    break;
+    case 1:
+        console.log('Segunda');
+        data.innerHTML = 'Segunda';
+        data.style.background = ' yelow';
+    break;
+    case 2:
+        console.log('Terça');
+        data.innerHTML = 'Terça';
+        data.style.background = ' red';
+    break;
+    case 3:
+        console.log('Quarta');
+        data.innerHTML = 'Quarta';
+        data.style.background = ' blue';
+    break;
+    case 4:
+        console.log('Quinta');
+        data.innerHTML = 'Quinta';
+        data.style.background = ' pink';
+    break;
+    case 5:
+        console.log('Sexta');
+        data.innerHTML = 'Sexta';
+        data.style.background = ' gold';
+    break;
+    case 6:
+        console.log('Sabado');
+        data.innerHTML = 'Sabado';
+        data.style.background = ' darkblue';
+    break;
+    default:
+        console.log('Dia invalido');
+    break;
+}
 
 
 

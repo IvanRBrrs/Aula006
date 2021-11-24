@@ -1,10 +1,10 @@
 @charset "UTF-8";
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    text-align: center;
 }
 .caixa{
-
     text-align: center;
     background-color: green;
     color: white;
@@ -12,5 +12,8 @@
     height: 250px;
     line-height: 250px;
     text-transform: uppercase;
-    transform: 10s;
+}
+h1{
+    background-color: gray;
+    width: 250px;
 }
