@@ -35,47 +35,69 @@ let diaSemana = agora.getDay();
 // Pegar o Id da Div //
 let data = document.getElementById('data');
 
-switch(diaSemana){
-    case 0:
-        console.log('Domingo');
-        data.innerHTML = 'Domingo';
-        data.style.background = ' gray';
-    break;
-    case 1:
-        console.log('Segunda');
-        data.innerHTML = 'Segunda';
-        data.style.background = ' yelow';
-    break;
-    case 2:
-        console.log('Terça');
-        data.innerHTML = 'Terça';
-        data.style.background = ' red';
-    break;
-    case 3:
-        console.log('Quarta');
-        data.innerHTML = 'Quarta';
-        data.style.background = ' blue';
-    break;
-    case 4:
-        console.log('Quinta');
-        data.innerHTML = 'Quinta';
-        data.style.background = ' pink';
-    break;
-    case 5:
-        console.log('Sexta');
-        data.innerHTML = 'Sexta';
-        data.style.background = ' gold';
-    break;
-    case 6:
-        console.log('Sabado');
-        data.innerHTML = 'Sabado';
-        data.style.background = ' darkblue';
-    break;
-    default:
-        console.log('Dia invalido');
-    break;
-}
+// switch(diaSemana){
+//     case 0:
+//         console.log('Domingo');
+//         data.innerHTML = 'Domingo';
+//         data.style.background = ' gray';
+//     break;
+//     case 1:
+//         console.log('Segunda');
+//         data.innerHTML = 'Segunda';
+//         data.style.background = ' yellow';
+//     break;
+//     case 2:
+//         console.log('Terça');
+//         data.innerHTML = 'Terça';
+//         data.style.background = ' red';
+//     break;
+//     case 3:
+//         console.log('Quarta');
+//         data.innerHTML = 'Quarta';
+//         data.style.background = ' blue';
+//     break;
+//     case 4:
+//         console.log('Quinta');
+//         data.innerHTML = 'Quinta';
+//         data.style.background = ' pink';
+//     break;
+//     case 5:
+//         console.log('Sexta');
+//         data.innerHTML = 'Sexta';
+//         data.style.background = ' gold';
+//     break;
+//     case 6:
+//         console.log('Sabado');
+//         data.innerHTML = 'Sabado';
+//         data.style.background = ' darkblue';
+//     break;
+//     default:
+//         console.log('Dia invalido');
+//     break;
+// }
 
+if(diaSemana == 0){
+    data.innerHTML = ('Domingo');
+    data.style.background = ('black');
+} else if(diaSemana == 1){
+    data.innerHTML = ('Segunda');
+    data.style.background = ('blue');
+} else if(diaSemana == 2){
+    data.innerHTML = ('Terça');
+    data.style.background = ('red');
+} else if(diaSemana == 3){
+    data.innerHTML = ('Quarta');
+    data.style.background = ('yellow');
+} else if(diaSemana == 4){
+    data.innerHTML = ('Quinta');
+    data.style.background = ('gray');
+} else if(diaSemana == 5){
+    data.innerHTML = ('Sexta');
+    data.style.background = ('green');
+} else if(diaSemana == 2){
+    data.innerHTML = ('Sabado');
+    data.style.background = ('gold');
+}
 
 
 
